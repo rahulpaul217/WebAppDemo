@@ -1,4 +1,4 @@
-name: .NET
+name: DoT Net Workflow
 
 on:
   push:
