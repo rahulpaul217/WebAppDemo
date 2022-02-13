@@ -37,6 +37,6 @@ jobs:
       with: 
         app-name: ${{env.AZURE_WEBAPP_NAME}}
         slot-name: 'development'
-        publish_profile: ${{secrets.AZUREWEBAPPSECRET}}
+        publish-profile: ${{secrets.AZUREWEBAPPSECRET}}
         package: '${{env.AZURE_WEBAPP_PACKAGE_PATH}}/myapp'
         
